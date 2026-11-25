@@ -1,0 +1,32 @@
+{
+  "name": "副业雷达",
+  "short_name": "副业雷达",
+  "description": "左滑右滑刷副业：41 个 2026 赚钱玩法，每张卡附来源、真实中位数和第一步。",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4f1ea",
+  "theme_color": "#f4f1ea",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

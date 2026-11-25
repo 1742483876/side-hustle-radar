@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>闲鱼 AI 账号生意拆解：各账号行情价与低价来源（2026-11）</title>
+<style>
+:root{--bg:#f7f6f2;--card:#fff;--text:#2c2c2a;--muted:#6b6a64;--line:#e4e2da;--blue:#185FA5;--bluebg:#E6F1FB;--red:#A32D2D;--redbg:#FCEBEB;--amber:#854F0B;--amberbg:#FAEEDA;--green:#3B6D11;--greenbg:#EAF3DE}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.7 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+.wrap{max-width:1120px;margin:0 auto;padding:28px 20px 60px}
+h1{font-size:24px;margin:0 0 4px;font-weight:600}
+h2{font-size:18px;margin:34px 0 12px;padding-left:10px;border-left:4px solid var(--blue);font-weight:600}
+h3{font-size:15px;margin:16px 0 8px;font-weight:600}
+.sub{color:var(--muted);font-size:13px}
+.verdict{background:var(--bluebg);border:1px solid #B5D4F4;border-radius:12px;padding:16px 18px;margin-top:16px}
+.verdict b{color:#0C447C}
+.warn{background:#FFF8F8;border:1px solid #F7C1C1;border-radius:12px;padding:14px 18px;margin:12px 0}
+.warn b{color:var(--red)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:12px 0}
+.hero{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:16px}
+.hero .card{margin:0}
+.k{font-size:12px;color:var(--muted)}
+.v{font-size:19px;font-weight:600;margin:2px 0;color:var(--blue)}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);font-size:13px;margin:10px 0}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
+th{background:#f1efe8;font-weight:600;color:#444441;white-space:nowrap}
+.p{color:var(--blue);font-weight:600;white-space:nowrap}
+.tag{display:inline-block;padding:0 7px;border-radius:6px;font-size:12px;line-height:20px;white-space:nowrap}
+.hi{background:var(--redbg);color:var(--red)}
+.mid{background:var(--amberbg);color:var(--amber)}
+.lo{background:var(--greenbg);color:var(--green)}
+.low{color:#888780;font-size:12px}
+a{color:var(--blue);text-decoration:none}
+.flow{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:12px 0}
+.flow div{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:12.5px;position:relative}
+.flow b{display:block;font-size:13.5px;margin-bottom:3px}
+.flow .m{color:var(--blue);font-weight:600}
+ul{margin:6px 0;padding-left:20px}
+li{margin:3px 0}
+.note{font-size:12px;color:var(--muted)}
+@media(max-width:800px){.hero,.flow{grid-template-columns:1fr 1fr}}
+</style>
+<base target="_blank">
+<meta name="theme-color" content="#14467f">
+<style>body{padding-top:calc(44px + env(safe-area-inset-top));font-family:"PingFang SC",-apple-system,"Microsoft YaHei",sans-serif}</style>
+</head>
+<body>
+<div style="position:fixed;left:0;right:0;top:0;height:env(safe-area-inset-top);background:#14467f;z-index:98"></div><a href="../index.html#/more" target="_self" style="position:fixed;left:12px;top:calc(10px + env(safe-area-inset-top));z-index:99;background:#14467f;color:#fff;padding:6px 14px;border-radius:18px;font:14px PingFang SC,-apple-system,sans-serif;text-decoration:none;box-shadow:0 2px 8px rgba(0,0,0,.2)">‹ 返回</a>
+<div class="wrap">
+<h1>闲鱼 AI 账号生意拆解：各家账号行情价与低价来源</h1>
+<div class="sub">价格截至 2026-11-22 · 主要来源：比价站 biwu.ai 当日抓取的卡网/闲鱼报价，钛媒体、检察日报、21 世纪经济报道、央视等 · 美元按约 6.72 换算 · 只讲现象、经济账和风险，不讲具体操作</div>
+
+<div class="verdict">
+<b>一句话：</b>AI 账号便宜，主要靠六种来源：<b>①地区定价差/支付差 ②运营商和硬件附赠的权益 ③新人、学生优惠被批量领取 ④团队套餐拆开卖 ⑤中转站把会员拆成按次、按小时卖 ⑥盗刷卡、支付漏洞、盗用算力</b>。①是相对干净的代充，源头每单只赚约 2 元，代理层每单能加 15~40 元。价格越离谱，越可能来自⑤和⑥。<b>2026 年 11 月 OpenAI 已经集中封号清算，11 月 20 日起非官方中转站被政策禁止，这门生意正在收口。</b>
+</div>
+
+<div class="hero">
+<div class="card"><div class="k">ChatGPT Plus 官方价</div><div class="v">$20 ≈ ¥134</div><div class="note">闲鱼代充 ¥119–199 · 成品号 ¥7–9 · 拼车 ¥40–50</div></div>
+<div class="card"><div class="k">Claude Max 5x 官方价</div><div class="v">$100 ≈ ¥669</div><div class="note">55 条转售报价：¥450–899</div></div>
+<div class="card"><div class="k">Gemini AI Pro 官方价</div><div class="v">≈¥2000/年</div><div class="note">闲鱼"一年"只卖 ¥20–70，最低 15 元用 18 个月</div></div>
+<div class="card"><div class="k">Kimi 会员</div><div class="v">¥49–1399/月</div><div class="note">闲鱼按天 ¥5.88（已售 2 万+单） · 按次 ¥2.58</div></div>
+</div>
+
+<h2>一、各账号行情价总表</h2>
+<p class="note">四种交付方式差别很大，比价时一定先分清：<b>代充</b>=开在你自己的账号上；<b>成品号</b>=卖家给一个开好会员的号，注册邮箱和找回方式通常在卖家手里；<b>拼车/共享</b>=多人合用一个号；<b>中转/按次</b>=不给账号，只给一个授权码，在第三方网页上用。</p>
+
+<h3>ChatGPT（OpenAI）</h3>
+<table>
+<tr><th>商品</th><th>官方价</th><th>闲鱼/卡网价</th><th>交付方式</th><th>货源性质</th><th>风险</th></tr>
+<tr><td>Go</td><td>—</td><td class="p">¥45</td><td>代充</td><td>个人代充报价</td><td><span class="tag mid">中</span></td></tr>
+<tr><td>Plus 代充</td><td>$20≈¥134</td><td class="p">¥119–199</td><td>开在自己账号上，质保 30 天</td><td>低价区或 iOS 支付通道；源头 ¥104–110，经过多级代理加价</td><td><span class="tag mid">中</span></td></tr>
+<tr><td>Plus 成品号</td><td>同上</td><td class="p">¥7–9</td><td>给账号密码，<b>只保证第一次能登录</b></td><td>标注"日抛""UPI/PIX/GoPay 渠道"等，用低价区支付方式批量生产</td><td><span class="tag hi">高</span> 随时被收回</td></tr>
+<tr><td>Plus"半价资格号"</td><td>—</td><td class="p">¥1.19–7</td><td>只是带首月半价资格的账号，还没开会员</td><td>批量注册后领取首月优惠资格</td><td><span class="tag hi">高</span></td></tr>
+<tr><td>Plus 拼车</td><td>同上</td><td class="p">¥40–50/人</td><td>3–5 人合用（有一个号卖给几十人的情况）</td><td>违反"个人账号只限本人使用"的规定</td><td><span class="tag hi">高</span> 别人能看到你的记录</td></tr>
+<tr><td>Plus 低价代充（已失效）</td><td>同上</td><td class="p">¥10–30/月</td><td>代充</td><td>利用 iOS 支付验证漏洞，2026 年 4 月被曝光</td><td><span class="tag hi">高</span></td></tr>
+<tr><td>Pro 100（5x）</td><td>$100≈¥672</td><td class="p">¥699–1000</td><td>代充</td><td>正价或低价区代充</td><td><span class="tag mid">中</span></td></tr>
+<tr><td>Pro 200（20x）</td><td>$200≈¥1344</td><td class="p">¥1259–1700</td><td>代充</td><td>个人代充 ¥1259，比官方约低 6%</td><td><span class="tag mid">中</span></td></tr>
+</table>
+
+<h3>Claude（Anthropic）</h3>
+<table>
+<tr><th>商品</th><th>官方价</th><th>闲鱼/卡网价</th><th>说明</th><th>风险</th></tr>
+<tr><td>Claude 普通号</td><td>免费</td><td class="p">¥36</td><td>Claude 注册限制严，账号本身就能卖钱</td><td><span class="tag mid">中</span></td></tr>
+<tr><td>代过身份核验（KYC）</td><td>—</td><td class="p">约 ¥130</td><td>2026 年 7 月起新号几乎都要做身份核验，因此出现代办这项服务</td><td><span class="tag hi">高</span> 用的是别人的身份</td></tr>
+<tr><td>Pro 代充</td><td>$20≈¥134</td><td class="p">¥135–190</td><td>经常缺货</td><td><span class="tag mid">中</span></td></tr>
+<tr><td>Max 5x</td><td>$100≈¥669</td><td class="p">¥450–899</td><td>55 条报价。¥450 左右多是"只保订阅、封号不管"；¥780–880 是"iOS 渠道正价代充、质保 30 天"</td><td><span class="tag mid">中</span>–<span class="tag hi">高</span></td></tr>
+<tr><td>Max 20x</td><td>$200；最低官方价约 ¥1463（印尼区）</td><td class="p">¥550–1936</td><td>¥550–800 是成品号；¥1020–1280 是"速刷号"（卖家自己写<b>平均只能活 2–3 天</b>）；¥1509–1936 是 iOS 正价代充</td><td>便宜档 <span class="tag hi">高</span></td></tr>
+</table>
+<p class="note">有买家自述：花 400 元在闲鱼代充 Max 5x，用了约 24 小时就被封号，卖家不赔（SecHub 帖子，2026-07）。</p>
+
+<h3>Gemini（Google AI Pro）</h3>
+<table>
+<tr><th>商品</th><th>官方价</th><th>闲鱼价</th><th>货源性质</th><th>风险</th></tr>
+<tr><td>18 个月会员（邀请链接）</td><td>$19.99/月，约 ¥2000/年</td><td class="p">几元 – ¥129</td><td>来自印度 Jio 手机套餐的附赠权益；额度偏低，对方停交话费权益就没了</td><td><span class="tag mid">中</span></td></tr>
+<tr><td>12 个月（Pixel 权益）</td><td>同上</td><td class="p">十几元 – ¥188</td><td>来自 Pixel 手机附赠，部分是用虚拟机冒充 Pixel 领取的</td><td><span class="tag hi">高</span> 谷歌清算时可能连号封掉</td></tr>
+<tr><td>学生认证</td><td>官方对学生免费</td><td class="p">¥2–10</td><td>代办学生身份认证；有报道称用的是冒用身份，甚至"阵亡军人信息"</td><td><span class="tag hi">高</span> 有道德和法律问题</td></tr>
+<tr><td>成品号</td><td>—</td><td class="p">¥20–70</td><td>无质保约 ¥20，质保一年约 ¥40–50</td><td><span class="tag hi">高</span></td></tr>
+<tr><td>家庭组拼车</td><td>—</td><td class="p">¥79/年</td><td>拉进对方的家庭组共享会员</td><td><span class="tag mid">中</span></td></tr>
+</table>
+
+<h3>Cursor / Grok / 其他</h3>
+<table>
+<tr><th>商品</th><th>官方价</th><th>闲鱼/卡网价</th><th>说明</th></tr>
+<tr><td>Cursor Pro</td><td>$20≈¥134</td><td class="p">¥80–179</td><td>有买家花 90 元买的号用了三四天就被封</td></tr>
+<tr><td>Cursor Ultra 成品号</td><td>$200</td><td class="p">¥1243–1300</td><td>部分是 Grok Heavy 附赠的；上游一退订，这边就掉订阅</td></tr>
+<tr><td>Cursor 免费号 / "无限额度插件"</td><td>—</td><td class="p">¥4 / ¥9.99</td><td>前者只是一包账号资料，后者有远程代码风险</td></tr>
+<tr><td>SuperGrok 代充</td><td>$30</td><td class="p">¥238/30 天</td><td>—</td></tr>
+<tr><td>Suno Pro</td><td>$10</td><td class="p">¥39.9（5 人共享）/ ¥99（独享）</td><td>—</td></tr>
+</table>
+
+<h3>国产 AI（Kimi / 豆包 / 即梦等）</h3>
+<table>
+<tr><th>商品</th><th>官方价</th><th>闲鱼价</th><th>实际交付</th></tr>
+<tr><td>Kimi 会员一日</td><td>¥49–1399/月（顶配 ¥699）</td><td class="p">¥5.88</td><td>头部链接已售 2 万+ 单、流水约 11.76 万元；付款后只给授权码和一个"AI 中转平台"网址</td></tr>
+<tr><td>Kimi 按次（例如做一次 PPT）</td><td>同上</td><td class="p">¥2.58–2.78</td><td>一个 ¥2.78 的链接已售 3000+ 单</td></tr>
+<tr><td>Kimi 按时长</td><td>同上</td><td class="p">10 分钟 ¥4.7 · 1 小时 ¥21.7</td><td>记者实测是共享的"计时工作空间"，<b>上一个人的对话记录还能看到</b></td></tr>
+<tr><td>API 密钥拆卖</td><td>—</td><td class="p">¥1.99–99.99</td><td>对应 220–14000 次调用，折合每次不到 1 分钱</td></tr>
+<tr><td>"无限薅豆包会员"教程</td><td>¥68/月起</td><td class="p">¥1.2</td><td>央视记者买来照做，没有拿到会员</td></tr>
+<tr><td>即梦高级会员出租</td><td>—</td><td>—</td><td>2026 年 3 月已有 20 多家店在出租</td></tr>
+</table>
+
+<h2>二、低价怎么来的：六种来源（由白到黑）</h2>
+<table>
+<tr><th>#</th><th>来源</th><th>原理</th><th>例子</th><th>性质</th></tr>
+<tr><td>①</td><td><b>支付差＋地区定价差</b></td><td>国内银行卡付不了海外订阅，代充商收人民币后走海外支付；同时挑标价低的地区或 iOS 渠道付款</td><td>菲律宾区 Plus 约 999 比索≈¥105，美区约 ¥134；Claude Max 20x 印尼区约 ¥1463，美区约 ¥1673</td><td><span class="tag mid">违反服务条款</span></td></tr>
+<tr><td>②</td><td><b>附赠权益转卖</b></td><td>运营商、手机、其他会员附赠的 AI 权益被拆出来单卖</td><td>Jio 套餐送 Gemini 18 个月；Pixel 送 1 年；Grok Heavy 送 Cursor Ultra</td><td><span class="tag mid">灰色</span></td></tr>
+<tr><td>③</td><td><b>新人/学生/邀请优惠批量领取</b></td><td>官方为拉新给的福利被批量领取后转卖</td><td>首月半价资格号 ¥1.88；学生认证 ¥2–10；Codex 邀请奖励的额度重置在闲鱼约 ¥3；免费 API 赠金</td><td><span class="tag hi">灰到黑</span></td></tr>
+<tr><td>④</td><td><b>团队/企业套餐拆分</b></td><td>用团队或企业套餐拿到批发价，再按座位或额度零售</td><td>团队套餐比个人价低 20%–50%；英镑区优惠 Team 车队、Claude Team 拼车</td><td><span class="tag mid">违约</span></td></tr>
+<tr><td>⑤</td><td><b>中转站拆卖</b></td><td>几个会员账号加一台服务器搭成中转站，再按次、按小时卖给很多人</td><td>Kimi 按天 ¥5.88、按次 ¥2.58；海外模型 API 中转</td><td><span class="tag hi">可能构成非法经营</span></td></tr>
+<tr><td>⑥</td><td><b>盗刷卡、支付漏洞、盗用算力</b></td><td>用来路不正的卡付款（俗称"黑充"）、一张卡给大量账号付费、利用平台验证缺陷、未经授权调用别人的接口</td><td>iOS 漏洞代充 ¥10–30/月；上海宗某盗用别人平台的算力转卖</td><td><span class="tag hi">刑事犯罪</span></td></tr>
+</table>
+<p class="note">另外还有一种坑买家的做法：<b>偷换模型</b>。卖家标的是顶配模型，中转站后台悄悄换成便宜的低配模型，大部分用户察觉不到（钛媒体采访的从业者自述）。</p>
+
+<h2>三、经济账：每一层赚多少</h2>
+<h3>A. 代充链（以 ChatGPT Plus 为例）</h3>
+<div class="flow">
+<div><b>源头（掌握支付通道）</b>手里有低价区和稳定的支付渠道，这行的门槛基本都在这一层<div class="m">成本 ¥104，卖 ¥106，一单赚 ¥2</div></div>
+<div><b>卡网（自动发卡站）</b>对接源头，建自动发货网站，发展代理<div class="m">约 ¥110–120</div></div>
+<div><b>代理（闲鱼、X、小红书）</b>不碰货源，加价零售<div class="m">¥135–148，一单赚 ¥15–40</div></div>
+<div><b>流量大号</b>卖的是"信任溢价"<div class="m">¥160+，有 B 站博主卖出 1.2 万份</div></div>
+</div>
+<p class="note">闲鱼上一个 ¥148 的 Plus 代充链接显示已售 12892 单（卖家自己标的数字）。按每单约 ¥30 的代理利润粗算，毛利约 38 万元，但这是一个店铺累计多个月的数字。</p>
+
+<h3>B. 中转拆卖（以 Kimi 为例，钛媒体 2026-11-06）</h3>
+<table>
+<tr><th>项目</th><th>数字</th></tr>
+<tr><td>货源成本</td><td>3 个 Kimi Max 连续包月共 ¥2097，摊到每天 ¥69.9</td></tr>
+<tr><td>其他成本</td><td>中转站搭建只要几百元，网上还有开源免费版；加上服务器和发卡工具，每天固定成本 ¥70 出头</td></tr>
+<tr><td>回本线</td><td>按 ¥2.58/次算，每月约 810 单（每天约 27 单）</td></tr>
+<tr><td>想月赚 1 万 / 3 万</td><td>每天分别要卖约 156 单 / 470 单（第三方测算）</td></tr>
+<tr><td>卖家自述流水</td><td>月流水约 30 万（多个店铺、多个平台合计），刚起步时峰值 50 万，现在"越来越不稳定"<span class="low">【单一信源】</span></td></tr>
+<tr><td>价格趋势</td><td>从 ¥5.88 打到 ¥2–3，热点窗口通常只撑几个月，卖家跟着热点转移（DeepSeek → 即梦 → Kimi）</td></tr>
+</table>
+<p class="note">关键点：中转生意的成本是固定的，卖 1 单和卖 1 万单的卡费一样。真正的暴利来自"货源成本被压到接近 0"，也就是第 ③ 和第 ⑥ 种来源，不是来自定价技巧。</p>
+
+<h3>C. 成品号批量生产</h3>
+<p>一个 Plus 成品号只卖 ¥7–9，卖家只保证"第一次能登录"，说明成本极低、寿命极短，靠的是批量注册加低价区支付。Claude Max 20x"速刷号"卖 ¥1020–1280，卖家自己标"日产 300 个、平均存活 2–3 天"。<b>这一层赚的是"账号被封之前"这段时间的差价，风险全部转嫁给买家。</b></p>
+
+<h2>四、2026 年的清算：这门生意正在收口</h2>
+<table>
+<tr><th>时间</th><th>事件</th></tr>
+<tr><td>2026-04 中旬</td><td>ChatGPT iOS 支付验证漏洞被公开，此前长期被用来做 ¥10–30/月的低价代充</td></tr>
+<tr><td>2026-05</td><td>Kimi Code 为打击倒卖升级风控，误伤了部分正常用户，5 月 26 日公开致歉；同月闲鱼屏蔽"ChatGPT""Claude"等关键词，卖家随即改用暗语</td></tr>
+<tr><td>2026-07-08</td><td>Claude 新隐私政策生效，可能要求核验身份证件、自拍或视频</td></tr>
+<tr><td>2026-10-21</td><td>央视曝光二手平台"破解版 AI"；检察日报、法治日报跟进，点出可能涉及非法经营罪、规避技术措施</td></tr>
+<tr><td>2026-11-02</td><td>OpenAI 限制同一张卡、同一台设备能绑定的付费订阅数量</td></tr>
+<tr><td><b>2026-11-07</b></td><td><b>OpenAI 没有预警就集中停用账号</b>。重灾区是菲律宾、土耳其等低价区代充号、英镑区优惠 Team 车队、拼车号、领过 API 赠金的号；有人每月付 $200 的 Pro 号、用了五年的老号也被封，对话记录取不回来</td></tr>
+<tr><td><b>2026-11-20</b></td><td>OpenAI 新版使用政策生效：<b>第三方 API 网关和模型路由中介必须事先拿到书面授权</b>，非官方中转站从政策上被禁止</td></tr>
+<tr><td>2026-12（计划）</td><td>Plus/Pro/Business 的 ChatGPT 和 Codex 改为共用一个按 Token 计量的额度池，靠开多个小号续额度的做法失效</td></tr>
+</table>
+
+<h2>五、法律红线（已有判决）</h2>
+<div class="warn">
+<b>上海首例"用 AI 伪造签名、盗用大模型算力"案</b>（检察日报 2026-11-05）：宗某批量注册近 30 万个免费账号，用脚本伪造平台的签名校验，非法调用平台接口 29 万余次，再通过自建的"中转网站"低价转卖 AI 绘图和视频生成服务，违法所得 3.4 万余元。法院以<b>非法获取计算机信息系统数据罪</b>判处有期徒刑三年、缓刑三年，罚金 4 万元。他辩称"以为都是公开的"，没有被采纳。
+</div>
+<ul>
+<li><b>非法经营罪</b>：没有经营资质、规模化转售接口或账号可能构成此罪。个人立案标准是经营数额 5 万元以上，或违法所得 1 万元以上（上海"瓜皮"中转站案已刑事立案，尚未判决）。</li>
+<li><b>侵犯公民个人信息罪</b>：中转站截留、倒卖用户提交的对话和文件，或者用冒用的身份做学生认证、身份核验，都可能涉及。</li>
+<li><b>民事层面</b>：违反各家用户协议，平台可以封号、追偿；视频会员领域已有判赔 200–300 万元的不正当竞争案例。</li>
+</ul>
+
+<h2>六、对买家的风险</h2>
+<ul>
+<li><b>数据完全暴露</b>：通过中转站、共享号、成品号输入的提示词和上传的文件，对卖家都是可见的，可能被留存甚至倒卖。<b>公司代码、内部数据千万别放进去。</b></li>
+<li><b>质保是空话</b>：便宜档大多"只保首登"或"只保订阅、封号不管"，店一关就找不到人。</li>
+<li><b>会被连带封号</b>：一张卡给很多账号付费，其中一个号被风控，同一张卡下的号可能一起被封；这次 11 月 7 日的清算里，有自称正常使用的老号也被波及。</li>
+<li><b>被偷换模型</b>：付顶配的钱，用的可能是低配模型。</li>
+</ul>
+
+<div class="verdict">
+<b>小白结论：</b>
+<ul>
+<li><b>做卖家：不建议。</b>单价已经卷到 ¥2–3，热点窗口只有几个月，上游随时会被整批清算；利润高的几种来源（③⑤⑥）恰好是刑事风险最大的。有技术的人反而最容易滑到"批量注册、伪造签名、搭中转站"这些已经有判例的做法上。</li>
+<li><b>做买家：</b>真要用海外模型，风险相对低的是"<b>自己的账号＋正价渠道代充</b>"（例如 iOS 正价渠道，价格接近官方，约 ¥140–190/月）。<b>成品号、拼车、中转、低价区代充都不建议买</b>，11 月 7 日那波清算的重灾区就是这几类。国产模型优先买官方的小额包（千问积分包 ¥10 起，Kimi 加油包 ¥25 起，智谱资源包 ¥8 起）。</li>
+</ul>
+</div>
+
+<h2>主要来源</h2>
+<div class="card" style="font-size:12.5px">
+<a href="https://finance.sina.com.cn/stock/t/2026-11-06/doc-inixuyww5368243.shtml">钛媒体 2026-11-06《AI开始收费，租号灰产崛起：一月流水30万》</a> ·
+<a href="https://news.youth.cn/fzlm/202611/t20261105_16950126.htm">检察日报/中青网 2026-11-05 上海宗某盗用算力案</a> ·
+<a href="https://www.21jingji.com/article/20261108/herald/0994840da2eda44fd8c2aa90b4e06869.html">21 世纪经济报道 2026-11-08 OpenAI 大规模封号</a> ·
+<a href="https://ysxw.cctv.cn/article.html?item_id=13192599411108595597">央视新闻 2026-10-22 破解版 AI</a> ·
+<a href="https://www.jcrb.com/livenews/2026/202610/t20261023_1037595.html">检察日报 2026-10-23 评论</a> ·
+<a href="https://www.huxiu.com/article/4870122.html">虎嗅《闲鱼正在成为AI时代最大的"黑市"》</a> ·
+<a href="https://biwu.ai/en/products/claude-max-5x">biwu.ai Claude Max 5x 比价（2026-11-22）</a> ·
+<a href="https://biwu.ai/en/products/claude-max-20x">biwu.ai Claude Max 20x 比价</a> ·
+<a href="https://biwu.ai/en/products/chatgpt-plus">biwu.ai ChatGPT Plus 比价</a> ·
+<a href="https://getgpt.pro/chatgpt-chongzhi-comparison">GPT 代充价格对比（2026-10-27）</a> ·
+<a href="https://leedu.ac.cn/article/chatgpt-personal-recharge-pricing-refund-guide">个人代充报价（2026-10-18）</a> ·
+<a href="https://wqu.guru/i/01M7A99BA36HZPHQGZ4SACJHAF">ChatGPT 代充产业链拆解</a> ·
+<a href="https://yage.ai/share/openai-ios-payment-vulnerability-20260420.html">OpenAI iOS 支付漏洞事件调研（2026-04-20）</a> ·
+<a href="https://post.m.smzdm.com/p/az83qzep">什么值得买 Gemini 低价会员 4 条门路</a> ·
+<a href="https://locdd.com/t/topic/87224/4">Gemini 18 个月/12 个月货源讨论</a> ·
+<a href="https://linux.do/t/topic/2938121/2">Linux.do 跳蚤市场行情贴（2026-09）</a> ·
+<a href="https://jclist.net/sharing/acc">账号商店价目表</a> ·
+<a href="https://neodrop.ai/zh-cn/post/xQ1qAAZcVT2">Neodrop 中转站资源抽样（2026-07）</a><br>
+<span class="low">卡网报价每天都在变，表中价格是 2026-11 的抽样区间，不是成交均价。部分数字是卖家自述或单一信源，已在正文注明。</span>
+</div>
+</div>
+</body>
+</html>
